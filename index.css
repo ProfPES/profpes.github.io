@@ -1,0 +1,536 @@
+body{
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    margin: 20px 30px;
+    font-family: raleway, sans-serif;
+}
+
+.logo{
+    float: left;
+    width: 50%;
+    font-size: 400%;
+    font-weight: bold;
+}
+
+.menu{
+    float: right;
+    width: 50%;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: right;
+}
+
+.menu ul li{
+    clear: both;
+    list-style: none;
+    display: inline-flex;
+    box-sizing: border-box;
+    margin: 0% 4%;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.menu ul{
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color:  hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    margin: 0% 3%;
+    font-family: raleway, sans-serif;
+    margin-top: 10%;
+}
+
+.body1{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 30px;
+}
+
+.g1 h2, p{
+    margin: 3%;
+}
+
+.g1 input{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(176, 68%, 64%);
+    padding: 1% 7%;
+    border-radius: 5em;
+}
+
+.body2{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+}
+
+.body2b{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+}
+
+.g2{
+    width: 100%;
+    text-align: center;
+    
+    width: 50%;
+} 
+
+.msg1{
+    margin: 2% 0%;
+    background-color: hsl(219, 30%, 18%);
+}
+
+
+.g3{
+    display: flex;
+}
+
+.imge{
+    float: left;
+    width: 50%;
+    margin: 1em;
+}
+
+.imge img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.p{
+    float: right;
+    width: 50%;
+    margin: 1em;
+}
+
+.p p, h2, a{ 
+    margin: 0.5em;
+}
+
+.g3 a{ 
+    text-decoration: underline;
+    color: hsl(176, 68%, 64%);
+    word-spacing: 0.5em;
+    line-height: 0.5em;
+}
+
+section{
+    display: inline-flex;
+    margin-top: 2em;
+   
+}
+
+section i{
+    color: hsl(176, 68%, 64%);
+    position: absolute;
+    font-size: larger;
+}
+
+.msg1{
+    margin: 0% 0.5em 15em 0.5em;
+}
+
+.pp{
+    display: flex;
+    margin: 1em;
+}
+
+
+
+.signup{
+    position: absolute;
+    top: 97em;
+    background-color: hsl(217, 28%, 15%);
+    padding: 5%;
+    text-align: center;
+    width: 50%;
+    transform: translateX(25%);
+}
+
+
+g h2{
+    text-align: center;
+}
+
+#clear{
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 1% 3%;
+    border-radius: 5em;
+}
+
+#clear2{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(176, 68%, 64%);
+    padding: 1% 3%;
+    border-radius: 5em;
+}
+
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    font-family: raleway, sans-serif;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.logo11{
+    margin-top: 2em;
+    font-size: 400%;
+    font-weight: bold;
+}
+
+.group{
+    display: flex;
+    font-size: 14px;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+}
+
+.location, .pe, .abjpb, .ctp, .socialmedia{
+    margin: 1.5%;
+    white-space:normal;
+}
+
+.Email{
+    font-size: 14px;
+}
+
+.abjpb ul a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    line-height: 2em;
+}
+
+.ctp ul a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    line-height: 2em;
+}
+
+.ctp ul li{
+    list-style: none;
+}
+
+span{
+    margin-right: 1.5%;
+}
+
+.abjpb li{
+    list-style: none;
+}
+
+.socialmedia{
+    text-align: center;
+    font-size: 150%;
+    
+}
+
+.socialmedia a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    margin: 0.3em;
+}
+
+.socialmedia ul li{ 
+    
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    body{
+        background-color: hsl(218, 28%, 13%);
+        color: hsl(0, 0%, 100%);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    * {
+        margin: 0px;
+    }
+    
+    header{
+        display: flex;
+        margin: 20px 30px;
+        font-family: raleway, sans-serif;
+    }
+    
+    .logo{
+        float: left;
+        width: 30%;
+        font-size: 200%;
+        font-weight: bold;
+    }
+    
+    .menu{
+        float: right;
+        width: 70%;
+        font-weight: bold;
+        font-size: 80%;
+        text-align: right;
+    }
+    
+    .menu ul li{
+        clear: both;
+        list-style: none;
+        display: inline-flex;
+        box-sizing: border-box;
+        margin: 0% 0.2%;
+        text-align: right;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .menu ul a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .menu ul{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container{
+        background-color:  hsl(218, 28%, 13%);
+        color: hsl(0, 0%, 100%);
+        margin: 0% 3%;
+        font-family: raleway, sans-serif;
+        margin-top: 10%;
+    }
+    
+    .body1{
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        padding: 30px;
+    }
+    
+    .g1 h2, p{
+        margin: 3%;
+    }
+    
+    .g1 input{
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(176, 68%, 64%);
+        padding: 1% 7%;
+        border-radius: 5em;
+    }
+    
+    .body2{
+        margin-top: 5%;
+        text-align: center;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .body2b{
+        margin-top: 5%;
+        text-align: center;
+        display: block;
+    }
+    
+    .g2{
+        width: 100%;
+        text-align: center;
+    } 
+    
+    .msg1{
+        margin: 2% 0%;
+        background-color: hsl(219, 30%, 18%);
+    }
+    
+    .body3{
+        margin-bottom: 3em;
+    }
+    
+    .g3{
+        display: inline-block;
+    }
+    
+    .imge{
+        width: 100%;
+       
+    }
+    
+    .imge img{
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .p{ 
+        width: 100%;
+    }
+    
+    .p p, h2, a{ 
+        margin: 0.5em;
+    }
+    
+    .g3 a{ 
+        text-decoration: underline;
+        color: hsl(176, 68%, 64%);
+        word-spacing: 0.5em;
+        line-height: 0.5em;
+    }
+    
+    section{
+        display: inline-block;
+        margin: 0.5em 0em 15em 0em ;
+       
+    }
+
+    section i{
+        color: hsl(176, 68%, 64%);
+        position: absolute;
+        font-size: larger;
+    }
+    
+    .msg1{
+        margin: 0% 0.5em 2em 0.5em;
+    }
+    
+    .pp{
+        display: flex;
+        margin: 1em;
+    }
+    
+    
+    
+    .signup{
+        position: absolute;
+        top: 210em;
+        background-color: hsl(217, 28%, 15%);
+        padding: 5%;
+        text-align: center;
+        width: 50%;
+        transform: translateX(25%);
+    }
+    
+    
+    g h2{
+        text-align: center;
+    }
+    
+    #clear{
+        color: hsl(0, 0%, 0%);
+        background-color: hsl(0, 0%, 100%);
+        padding: 1% 3%;
+        border-radius: 5em;
+    }
+    
+    #clear2{
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(176, 68%, 64%);
+        padding: 1% 3%;
+        border-radius: 5em;
+    }
+    
+    
+    footer{
+        background-color: hsl(216, 53%, 9%);
+        font-family: raleway, sans-serif;
+        padding: 2%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    
+    .logo11{
+        margin-top: 2em;
+        font-size: 400%;
+        font-weight: bold;
+    }
+    
+    .group{
+        display: block;
+        font-size: 14px;
+        width: 100%;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .location, .pe, .abjpb, .ctp, .socialmedia{
+        margin: 2.7%;
+        white-space:normal;
+    }
+    
+    .phone{
+        margin-bottom: 2.0em;
+    }
+
+    .Email{
+        font-size: 14px;
+    }
+    
+    .abjpb ul a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        line-height: 2em;
+    }
+    
+    .ctp ul a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        line-height: 2em;
+    }
+    
+    .ctp ul li{
+        list-style: none;
+    }
+    
+    span{
+        margin-right: 1.5%;
+    }
+    
+    .abjpb li{
+        list-style: none;
+    }
+    
+    .socialmedia{
+        text-align: center;
+        font-size: 150%;
+        
+    }
+    
+    .socialmedia a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        margin: 0.3em;
+    }
+    
+    .socialmedia ul li{ 
+        
+    }
+    
+
+}
